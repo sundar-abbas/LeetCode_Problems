@@ -4,10 +4,11 @@
 
 | #   | Topic  | Problems Solved |
 | --- | ------ | --------------- |
-| 1   | Arrays | 1 / 10          |
+| 1   | Arrays | 2 / 20          |
 
-**Total Solved:** 1 / 100
+**Total Solved:** 2 / 190
 
 ## Problems Solved
 
 - Two Sum
+- Contains Duplicate
