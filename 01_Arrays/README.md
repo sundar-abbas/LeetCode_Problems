@@ -7,6 +7,7 @@
 - range(len(nums)) loops through indexes.
 - range(x + 1, len(nums)) avoids comparing the same element twice.
 - Set removes the duplicate values.
+- Running Sum of 1d Array
 
 ## Problems Solved
 
@@ -27,3 +28,12 @@
 - **Optimization:** Could use a Hash Map and also compare with set length .
 - **LeetCode Link:** https://leetcode.com/problems/contains-duplicate/
 - **Date Solved:** 2026-07-17
+
+### 003. Running Sum of 1d Array
+
+- **Difficulty:** Easy
+- **Approach:** In-place Iteration.
+- **My Solution:** Modified the input array in-place by adding the previous element to the current element.
+- **Optimization:** Current solution is optimal at \(O(1)\) space, but could also use itertools.accumulate() for a one-liner.
+- **LeetCode Link:** https://leetcode.com/problems/running-sum-of-1d-array/
+- **Date Solved:** 2026-07-18
