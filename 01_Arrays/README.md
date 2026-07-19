@@ -34,6 +34,16 @@
 - **Difficulty:** Easy
 - **Approach:** In-place Iteration.
 - **My Solution:** Modified the input array in-place by adding the previous element to the current element.
-- **Optimization:** Current solution is optimal at \(O(1)\) space, but could also use itertools.accumulate() for a one-liner.
+- **Optimization:** Current solution is optimal at (O(1)) space, but could also use itertools.accumulate() for a one-liner.
 - **LeetCode Link:** https://leetcode.com/problems/running-sum-of-1d-array/
 - **Date Solved:** 2026-07-18
+
+### 004. Richest Customer Wealth
+
+- **Difficulty:** Easy
+- **Approach:** Iterative Nested Loops.
+- **My Solution:** Maintained a running maximum while iterating through every bank account row by row.
+- **Complexity:** Time: O(M x N) | Space: O(1)
+- **Optimization:** Can be written as a pythonic one-liner using `max(sum(row) for row in accounts)`.
+- **LeetCode Link:** https://leetcode.com/problems/richest-customer-wealth/
+- **Date Solved:** 2026-07-19
