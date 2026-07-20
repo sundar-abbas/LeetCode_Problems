@@ -47,3 +47,13 @@
 - **Optimization:** Can be written as a pythonic one-liner using `max(sum(row) for row in accounts)`.
 - **LeetCode Link:** https://leetcode.com/problems/richest-customer-wealth/
 - **Date Solved:** 2026-07-19
+
+### 005. Find Pivot Index
+
+- **Difficulty:** Easy
+- **Approach:** Prefix Sum / Running Total.
+- **My Solution:** Maintained a running left sum and compared it to the remaining right sum at each index.
+- **Complexity:** Time: O(N) | Space: O(1)
+- **Optimization:** Can be written in a single pass by subtracting the left sum and current element from the total sum.
+- **LeetCode Link:** https://leetcode.com/problems/find-pivot-index/
+- **Date Solved:** 2026-07-20
