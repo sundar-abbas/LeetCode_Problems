@@ -57,3 +57,13 @@
 - **Optimization:** Can be written in a single pass by subtracting the left sum and current element from the total sum.
 - **LeetCode Link:** https://leetcode.com/problems/find-pivot-index/
 - **Date Solved:** 2026-07-20
+
+### 006. Find the Highest Altitude
+
+- **Difficulty:** Easy
+- **Approach:** Brute Force / Cumulative Re-calculation.
+- **My Solution:** Iterated through all possible road trip points and recalculated the total cumulative altitude gain from the starting point using an inner loop.
+- **Complexity:** Time: $O(N^2)$ | Space: $O(1)$
+- **Optimization:** Can be optimized to $O(N)$ time in a single pass by maintaining a single running total variable (Prefix Sum) and updating the maximum altitude dynamically.
+- **LeetCode Link:** https://leetcode.com/problems/find-the-highest-altitude/
+- **Date Solved:** 2026-07-21

@@ -4,9 +4,9 @@
 
 | #   | Topic  | Problems Solved |
 | --- | ------ | --------------- |
-| 1   | Arrays | 5 / 20          |
+| 1   | Arrays | 6 / 20          |
 
-**Total Solved:** 5 / 190
+**Total Solved:** 6 / 190
 
 ## Problems Solved
 
@@ -15,3 +15,4 @@
 - Running Sum of 1d Array
 - Richest Customer Wealth
 - Find Pivot Index
+- Find the Highest Altitude
