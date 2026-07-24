@@ -67,3 +67,13 @@
 - **Optimization:** Can be optimized to $O(N)$ time in a single pass by maintaining a single running total variable (Prefix Sum) and updating the maximum altitude dynamically.
 - **LeetCode Link:** https://leetcode.com/problems/find-the-highest-altitude/
 - **Date Solved:** 2026-07-21
+
+### 007. Kids with the Greatest Number of Candies
+
+- **Difficulty:** Easy
+- **Approach:** Maximum Element Tracking & Single Pass.
+- **My Solution:** Found the maximum candy count in the array first, then iterated through each child once to check if their candies plus the extras met or exceeded that maximum.
+- **Complexity:** Time: O(N) | Space: O(1) auxiliary space O(N) to store the result
+- **Optimization:** Optimized from a nested loop O(N^2) brute-force approach to a linear O(N) time solution by eliminating the inner loop and using a pre-calculated maximum.
+- **LeetCode Link:** https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/
+- **Date Solved:** 2026-07-04

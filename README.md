@@ -4,9 +4,9 @@
 
 | #   | Topic  | Problems Solved |
 | --- | ------ | --------------- |
-| 1   | Arrays | 6 / 20          |
+| 1   | Arrays | 7 / 20          |
 
-**Total Solved:** 6 / 190
+**Total Solved:** 7 / 190
 
 ## Problems Solved
 
@@ -16,3 +16,4 @@
 - Richest Customer Wealth
 - Find Pivot Index
 - Find the Highest Altitude
+- Kids with the greatest number of candies
