@@ -76,4 +76,14 @@
 - **Complexity:** Time: O(N) | Space: O(1) auxiliary space O(N) to store the result
 - **Optimization:** Optimized from a nested loop O(N^2) brute-force approach to a linear O(N) time solution by eliminating the inner loop and using a pre-calculated maximum.
 - **LeetCode Link:** https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/
-- **Date Solved:** 2026-07-04
+- **Date Solved:** 2026-07-24
+
+### 8. Shuffle the Array
+
+- **Difficulty:** Easy
+- **Approach:** Array Slicing & Zipping with List Comprehension.
+- **My Solution:** Split the array into two halves, paired the elements using the `zip` function, and flattened the pairs into a single list using a nested list comprehension.
+- **Complexity:** Time: O(N) | Space: O(N) to store the slices and the final zipped result
+- **Optimization:** Streamlined the index-tracking loop into a pythonic, clean one-liner that interleaves both halves in a single pass.
+- **LeetCode Link:** https://leetcode.com/problems/shuffle-the-array/
+- **Date Solved:** 2026-07-25

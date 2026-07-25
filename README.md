@@ -4,9 +4,9 @@
 
 | #   | Topic  | Problems Solved |
 | --- | ------ | --------------- |
-| 1   | Arrays | 7 / 20          |
+| 1   | Arrays | 8 / 20          |
 
-**Total Solved:** 7 / 190
+**Total Solved:** 8 / 190
 
 ## Problems Solved
 
@@ -17,3 +17,4 @@
 - Find Pivot Index
 - Find the Highest Altitude
 - Kids with the greatest number of candies
+- Shuffle The Array
