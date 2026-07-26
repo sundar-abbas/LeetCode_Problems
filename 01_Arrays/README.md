@@ -87,3 +87,13 @@
 - **Optimization:** Streamlined the index-tracking loop into a pythonic, clean one-liner that interleaves both halves in a single pass.
 - **LeetCode Link:** https://leetcode.com/problems/shuffle-the-array/
 - **Date Solved:** 2026-07-25
+
+### 9. Concatenation Of Array
+
+- **Difficulty:** Easy
+- **Approach:** List Duplication & Iterative Append.
+- **My Solution:** Created an initial copy of the input list and iterated through the original elements, appending each one to the copy to double the array's length.
+- **Complexity:** Time: O(N) | Space: O(N) to store the duplicated elements in the final result array
+- **Optimization:** Utilized a clean `for` loop to append elements sequentially, which can be further optimized into a one-liner like `nums * 2` or `nums + nums`.
+- **LeetCode Link:** https://leetcode.com/problems/concatenation-of-array/
+- **Date Solved:** 2026-07-26

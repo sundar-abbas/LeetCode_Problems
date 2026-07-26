@@ -4,9 +4,9 @@
 
 | #   | Topic  | Problems Solved |
 | --- | ------ | --------------- |
-| 1   | Arrays | 8 / 20          |
+| 1   | Arrays | 9 / 20          |
 
-**Total Solved:** 8 / 190
+**Total Solved:** 9 / 190
 
 ## Problems Solved
 
@@ -18,3 +18,4 @@
 - Find the Highest Altitude
 - Kids with the greatest number of candies
 - Shuffle The Array
+- Concatenation Of Array
