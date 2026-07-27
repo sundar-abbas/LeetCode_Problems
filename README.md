@@ -4,9 +4,9 @@
 
 | #   | Topic  | Problems Solved |
 | --- | ------ | --------------- |
-| 1   | Arrays | 9 / 20          |
+| 1   | Arrays | 10 / 20         |
 
-**Total Solved:** 9 / 190
+**Total Solved:** 10 / 190
 
 ## Problems Solved
 
@@ -19,3 +19,4 @@
 - Kids with the greatest number of candies
 - Shuffle The Array
 - Concatenation Of Array
+- Build Array From permutation

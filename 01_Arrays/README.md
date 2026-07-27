@@ -8,6 +8,7 @@
 - range(x + 1, len(nums)) avoids comparing the same element twice.
 - Set removes the duplicate values.
 - Running Sum of 1d Array
+- Zero-Based Permutation (No missing numbers, starts at 0, no repeats).
 
 ## Problems Solved
 
@@ -97,3 +98,13 @@
 - **Optimization:** Utilized a clean `for` loop to append elements sequentially, which can be further optimized into a one-liner like `nums * 2` or `nums + nums`.
 - **LeetCode Link:** https://leetcode.com/problems/concatenation-of-array/
 - **Date Solved:** 2026-07-26
+
+### 010. Build Array From Permutation
+
+- **Difficulty:** Easy
+- **Approach:** Iterative Permutation Mapping / Treasure Hunt.
+- **My Solution:** Iterated through the list using a `for` loop, nested the current element value inside the array index (`nums[nums[num]]`), and appended the targeted values to a new list.
+- **Complexity:** Time: O(N) | Space: O(N) to store the elements in the new output array
+- **Optimization:** Can be optimized into a clean list comprehension one-liner: `[nums[num] for num in nums]`.
+- **LeetCode Link:** https://leetcode.com/problems/build-array-from-permutation/
+- **Date Solved:** 2026-07-27
