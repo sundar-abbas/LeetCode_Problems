@@ -4,10 +4,11 @@
 
 - Access elements using indexes.
 - Use nested loops to compare elements.
-- range(len(nums)) loops through indexes.
-- range(x + 1, len(nums)) avoids comparing the same element twice.
-- Set removes the duplicate values.
-- Running Sum of 1d Array
+- `range(len(nums))` loops through indexes.
+- `range(x + 1, len(nums))` avoids comparing the same element twice.
+- Set removes duplicate values but destroys original order.
+- In-place slice modification (`nums[:k] = ...`) alters the original list without allocating new memory.
+- Running Sum of 1d Array.
 - Zero-Based Permutation (No missing numbers, starts at 0, no repeats).
 
 ## Problems Solved
@@ -79,7 +80,7 @@
 - **LeetCode Link:** https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/
 - **Date Solved:** 2026-07-24
 
-### 8. Shuffle the Array
+### 008. Shuffle the Array
 
 - **Difficulty:** Easy
 - **Approach:** Array Slicing & Zipping with List Comprehension.
@@ -89,7 +90,7 @@
 - **LeetCode Link:** https://leetcode.com/problems/shuffle-the-array/
 - **Date Solved:** 2026-07-25
 
-### 9. Concatenation Of Array
+### 009. Concatenation Of Array
 
 - **Difficulty:** Easy
 - **Approach:** List Duplication & Iterative Append.
@@ -108,3 +109,13 @@
 - **Optimization:** Can be optimized into a clean list comprehension one-liner: `[nums[num] for num in nums]`.
 - **LeetCode Link:** https://leetcode.com/problems/build-array-from-permutation/
 - **Date Solved:** 2026-07-27
+
+### 011. Remove Duplicates from Sorted Array
+
+- **Difficulty:** Easy
+- **Approach:** Type Conversion & In-Place Slice Assignment.
+- **My Solution:** Filtered unique elements via `set()`, sorted them back into order, and modified the original array's prefix using python slice assignment (`nums[:k]`).
+- **Complexity:** Time: O(N log N) due to the sorting step | Space: O(N) to hold the unique list values temporarily
+- **Optimization:** Can be optimized to O(N) time and O(1) space using a traditional two-pointer approach to leverage the already sorted input array.
+- **LeetCode Link:** https://leetcode.com/problems/remove-duplicates-from-sorted-array/
+- **Date Solved:** 2026-07-28

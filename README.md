@@ -4,9 +4,9 @@
 
 | #   | Topic  | Problems Solved |
 | --- | ------ | --------------- |
-| 1   | Arrays | 10 / 20         |
+| 1   | Arrays | 11 / 20         |
 
-**Total Solved:** 10 / 190
+**Total Solved:** 11 / 190
 
 ## Problems Solved
 
@@ -20,3 +20,4 @@
 - Shuffle The Array
 - Concatenation Of Array
 - Build Array From permutation
+- Remove Duplicates from Sorted Array
