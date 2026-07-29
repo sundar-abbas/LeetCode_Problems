@@ -119,3 +119,13 @@
 - **Optimization:** Can be optimized to O(N) time and O(1) space using a traditional two-pointer approach to leverage the already sorted input array.
 - **LeetCode Link:** https://leetcode.com/problems/remove-duplicates-from-sorted-array/
 - **Date Solved:** 2026-07-28
+
+### 011. Remove Element
+
+- **Difficulty:** Easy
+- **Approach:** Shallow Copy Iteration.
+- **My Solution:** Iterated over a shallow copy of the list (`nums[:]`) to safely call `nums.remove(x)` without skipping elements during deletion.
+- **Complexity:** Time: O(N²) due to nested removal scans | Space: O(N) to hold the shallow copy
+- **Optimization:** Can be optimized to O(N) time and O(1) space using a two-pointer technique to overwrite values in-place without deleting or copying.
+- **LeetCode Link:** https://leetcode.com/problems/remove-element/
+- **Date Solved:** 2026-07-29
