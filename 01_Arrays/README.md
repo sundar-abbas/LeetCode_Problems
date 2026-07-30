@@ -6,10 +6,12 @@
 - Use nested loops to compare elements.
 - `range(len(nums))` loops through indexes.
 - `range(x + 1, len(nums))` avoids comparing the same element twice.
+- Backward iteration with step `-1` using `range(start, stop, -1)`.
 - Set removes duplicate values but destroys original order.
 - In-place slice modification (`nums[:k] = ...`) alters the original list without allocating new memory.
 - Running Sum of 1d Array.
 - Zero-Based Permutation (No missing numbers, starts at 0, no repeats).
+- Math carry-over handling by resetting digits to 0 during array traversal.
 
 ## Problems Solved
 
@@ -120,7 +122,7 @@
 - **LeetCode Link:** https://leetcode.com/problems/remove-duplicates-from-sorted-array/
 - **Date Solved:** 2026-07-28
 
-### 011. Remove Element
+### 012. Remove Element
 
 - **Difficulty:** Easy
 - **Approach:** Shallow Copy Iteration.
@@ -129,3 +131,13 @@
 - **Optimization:** Can be optimized to O(N) time and O(1) space using a two-pointer technique to overwrite values in-place without deleting or copying.
 - **LeetCode Link:** https://leetcode.com/problems/remove-element/
 - **Date Solved:** 2026-07-29
+
+### 013. Plus One
+
+- **Difficulty:** Easy
+- **Approach:** In-Place Backward Iteration.
+- **My Solution:** Iterated backward from the last digit. If a digit is less than 9, incremented it by 1 and returned early. If it equals 9, reset it to 0 to handle the carry-over. Handled edge cases (all 9s) by appending 1 to the front.
+- **Complexity:** Time: O(N) | Space: O(1) auxiliary space (O(N) worst-case if creating a new list for carry overflow)
+- **Optimization:** This solution is highly optimal as it processes elements in-place without converting types to strings or big integers.
+- **LeetCode Link:** https://leetcode.com/problems/plus-one/
+- **Date Solved:** 2026-07-30

@@ -4,9 +4,9 @@
 
 | #   | Topic  | Problems Solved |
 | --- | ------ | --------------- |
-| 1   | Arrays | 12 / 20         |
+| 1   | Arrays | 13 / 20         |
 
-**Total Solved:** 12 / 190
+**Total Solved:** 13 / 190
 
 ## Problems Solved
 
@@ -22,3 +22,4 @@
 - Build Array From permutation
 - Remove Duplicates from Sorted Array
 - Remove Element
+- Plus One
