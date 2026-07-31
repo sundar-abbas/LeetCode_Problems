@@ -4,9 +4,9 @@
 
 | #   | Topic  | Problems Solved |
 | --- | ------ | --------------- |
-| 1   | Arrays | 13 / 20         |
+| 1   | Arrays | 14 / 20         |
 
-**Total Solved:** 13 / 190
+**Total Solved:** 14 / 190
 
 ## Problems Solved
 
@@ -23,3 +23,4 @@
 - Remove Duplicates from Sorted Array
 - Remove Element
 - Plus One
+- Merge Sorted Array

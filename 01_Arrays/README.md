@@ -12,6 +12,8 @@
 - Running Sum of 1d Array.
 - Zero-Based Permutation (No missing numbers, starts at 0, no repeats).
 - Math carry-over handling by resetting digits to 0 during array traversal.
+- Merging sorted arrays by overwriting trailing empty space and re-sorting.
+
 
 ## Problems Solved
 
@@ -141,3 +143,13 @@
 - **Optimization:** This solution is highly optimal as it processes elements in-place without converting types to strings or big integers.
 - **LeetCode Link:** https://leetcode.com/problems/plus-one/
 - **Date Solved:** 2026-07-30
+
+### 014. Merge Sorted Array
+
+- **Difficulty:** Easy
+- **Approach:** Append and Sort.
+- **My Solution:** Overwrote the trailing placeholder elements of the first array with all elements of the second array via index injection, then sorted the combined list in-place.
+- **Complexity:** Time: O((M + N) log(M + N)) due to the sorting step | Space: O(1) auxiliary space as the operation is done entirely within `nums1`
+- **Optimization:** Can be optimized to O(M + N) time by utilizing a three-pointer approach that works backward from the end of `nums1` to place elements without sorting.
+- **LeetCode Link:** https://leetcode.com/problems/merge-sorted-array/
+- **Date Solved:** 2026-07-31
