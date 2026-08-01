@@ -13,7 +13,8 @@
 - Zero-Based Permutation (No missing numbers, starts at 0, no repeats).
 - Math carry-over handling by resetting digits to 0 during array traversal.
 - Merging sorted arrays by overwriting trailing empty space and re-sorting.
-
+- Single-Pass Optimization (O(N)): Reducing an $O(N^2)$ nested loop problem to a linear $O(N)$ single loop by using dynamic tracking.
+- Dynamic Variable Tracking: Maintaining running global values (like `min_price` and `max_profit`) while walking through an array from left to right.
 
 ## Problems Solved
 
@@ -153,3 +154,13 @@
 - **Optimization:** Can be optimized to O(M + N) time by utilizing a three-pointer approach that works backward from the end of `nums1` to place elements without sorting.
 - **LeetCode Link:** https://leetcode.com/problems/merge-sorted-array/
 - **Date Solved:** 2026-07-31
+
+### 015. Best Time to Buy and Sell Stock
+
+- **Difficulty:** Easy
+- **Approach:** Single Pass / Dynamic Tracking (Greedy).
+- **My Solution:** Iterated through the list once. Maintained a running `buy_price` to lock in the lowest historical price seen so far, and dynamically updated the maximum `profit` whenever a day yielded a larger price spread.
+- **Complexity:** Time: O(N) | Space: O(1)
+- **Optimization:** Successfully optimized from an $O(N^2)$ brute-force double-loop calculation to an optimal single pass, avoiding the "Time Limit Exceeded" constraint.
+- **LeetCode Link:** https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
+- **Date Solved:** 2026-08-01

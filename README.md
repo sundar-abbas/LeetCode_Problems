@@ -4,9 +4,9 @@
 
 | #   | Topic  | Problems Solved |
 | --- | ------ | --------------- |
-| 1   | Arrays | 14 / 20         |
+| 1   | Arrays | 15 / 20         |
 
-**Total Solved:** 14 / 190
+**Total Solved:** 15 / 190
 
 ## Problems Solved
 
@@ -24,3 +24,4 @@
 - Remove Element
 - Plus One
 - Merge Sorted Array
+- Best time to buy and sell stock
