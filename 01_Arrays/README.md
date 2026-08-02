@@ -164,3 +164,13 @@
 - **Optimization:** Successfully optimized from an $O(N^2)$ brute-force double-loop calculation to an optimal single pass, avoiding the "Time Limit Exceeded" constraint.
 - **LeetCode Link:** https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
 - **Date Solved:** 2026-08-01
+
+### 016. Majority Element
+
+- **Difficulty:** Easy
+- **Approach:** Boyer-Moore Voting Algorithm.
+- **My Solution:** Iterated through the array tracking a `maj_num` candidate and a balance `count`. Reset the candidate whenever the count dropped to zero, and incremented or decremented the tracker depending on whether the current number matched the candidate.
+- **Complexity:** Time: O(N) \| Space: O(1)
+- **Optimization:** Optimized from an O(N) space hash map implementation to O(1) auxiliary space by using the cancelation properties of a true majority element, fulfilling the linear time and constant space constraint.
+- **LeetCode Link:** https://leetcode.com/problems/majority-element/
+- **Date Solved:** 2026-08-02
