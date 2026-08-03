@@ -174,3 +174,14 @@
 - **Optimization:** Optimized from an O(N) space hash map implementation to O(1) auxiliary space by using the cancelation properties of a true majority element, fulfilling the linear time and constant space constraint.
 - **LeetCode Link:** https://leetcode.com/problems/majority-element/
 - **Date Solved:** 2026-08-02
+
+
+### 017. Remove Zeroes
+
+- **Difficulty:** Easy
+- **Approach:** Two-Pointer (Read/Write Index)
+- **My Solution:** Maintained a `write_ptr` tracking the position for the next non-zero element. Iterated through the array, writing any non-zero values to `write_ptr` and advancing it. Filled all remaining indices up to the end of the array with zeroes.
+- **Complexity:** Time: O(N) | Space: O(1)
+- **Optimization:** Avoided the $O(N^2)$ complexity of standard array mutations (`pop` or `remove`) by modifying elements directly by index in-place, achieving an optimal single-pass style rewrite with constant extra space.
+- **LeetCode Link:** https://leetcode.com/problems/move-zeroes/
+- **Date Solved:** 2026-08-03
