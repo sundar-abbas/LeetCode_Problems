@@ -175,7 +175,6 @@
 - **LeetCode Link:** https://leetcode.com/problems/majority-element/
 - **Date Solved:** 2026-08-02
 
-
 ### 017. Remove Zeroes
 
 - **Difficulty:** Easy
@@ -185,3 +184,13 @@
 - **Optimization:** Avoided the $O(N^2)$ complexity of standard array mutations (`pop` or `remove`) by modifying elements directly by index in-place, achieving an optimal single-pass style rewrite with constant extra space.
 - **LeetCode Link:** https://leetcode.com/problems/move-zeroes/
 - **Date Solved:** 2026-08-03
+
+### 018. Squares of a Sorted Array
+
+- **Difficulty:** Easy
+- **Approach:** In-Place Modification & Sorting
+- **My Solution:** Iterated through the list using index-based tracking (`range(len(nums))`) to directly square each element in-place, bypassing temporary loop variable copies. Sorted the mutated array exactly once after the loop completed.
+- **Complexity:** Time: $O(N \log N)$ | Space: $O(1)$
+- **Optimization:** Conserved memory by modifying the input array in-place, though performance can be further optimized from $O(N \log N)$ to a linear $O(N)$ single-pass solution using a Two-Pointer approach to leverage the initial sorted state of the array.
+- **LeetCode Link:** https://leetcode.com/problems/squares-of-a-sorted-array/
+- **Date Solved:** 2026-08-10
