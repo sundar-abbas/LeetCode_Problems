@@ -4,9 +4,9 @@
 
 | #   | Topic  | Problems Solved |
 | --- | ------ | --------------- |
-| 1   | Arrays | 18 / 20         |
+| 1   | Arrays | 19 / 20         |
 
-**Total Solved:** 18 / 190
+**Total Solved:** 19 / 190
 
 ## Problems Solved
 
@@ -28,3 +28,4 @@
 - Majority Element
 - Remove Zeroes
 - Squares of a Sorted Array
+- Third Maximum Number

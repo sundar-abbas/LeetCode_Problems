@@ -194,3 +194,13 @@
 - **Optimization:** Conserved memory by modifying the input array in-place, though performance can be further optimized from $O(N \log N)$ to a linear $O(N)$ single-pass solution using a Two-Pointer approach to leverage the initial sorted state of the array.
 - **LeetCode Link:** https://leetcode.com/problems/squares-of-a-sorted-array/
 - **Date Solved:** 2026-08-10
+
+### 019. Third Maximum Number
+
+- **Difficulty:** Easy
+- **Approach:** Deduplication & Sorting
+- **My Solution:** Eliminated duplicates by converting the array into a `set()`, transformed it back into a list, and sorted it in ascending order. If the deduplicated list contains fewer than 3 elements, it returns the absolute maximum (`unique_list[-1]`). Otherwise, it returns the third maximum element (`unique_list[-3]`).
+- **Complexity:** Time: (O(N \log N)) due to sorting the unique elements | Space: \(O(N)\) to store unique elements in the set and list
+- **Optimization:** This can be optimized to linear time \(O(N)\) and constant space \(O(1)\) by tracking the top three distinct maximum values using three independent pointer variables in a single pass.
+- **LeetCode Link:** https://leetcode.com/problems/third-maximum-number
+- **Date Solved:** 2026-10-15
