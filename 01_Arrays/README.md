@@ -202,5 +202,17 @@
 - **My Solution:** Eliminated duplicates by converting the array into a `set()`, transformed it back into a list, and sorted it in ascending order. If the deduplicated list contains fewer than 3 elements, it returns the absolute maximum (`unique_list[-1]`). Otherwise, it returns the third maximum element (`unique_list[-3]`).
 - **Complexity:** Time: (O(N \log N)) due to sorting the unique elements | Space: \(O(N)\) to store unique elements in the set and list
 - **Optimization:** This can be optimized to linear time \(O(N)\) and constant space \(O(1)\) by tracking the top three distinct maximum values using three independent pointer variables in a single pass.
-- **LeetCode Link:** https://leetcode.com/problems/third-maximum-number
+- **LeetCode Link:** https://leetcode.com/problems/third-maximum-number/
 - **Date Solved:** 2026-10-15
+
+
+### 020. Maximum Subarray
+
+- **Difficulty:** Medium
+- **Approach:** Kadane's Algorithm (Greedy / Dynamic Programming)
+- **My Solution:** Maintained a running sum (`current_sum`) and a global maximum (`maximum_sum`). Iterated through the array starting from the second element; if the running sum dropped below zero, it was reset to zero to drop the negative baggage before adding the current element. The global maximum was updated whenever the running sum achieved a new peak.
+- **Complexity:** Time: O(N) since it iterates through the array exactly once | Space: O(1) as it only uses a few scalar variables for tracking sums
+- **LeetCode Link:** https://leetcode.com/problems/maximum-subarray/
+- **Date Solved:** 2026-10-16
+
+

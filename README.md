@@ -4,9 +4,10 @@
 
 | #   | Topic  | Problems Solved |
 | --- | ------ | --------------- |
-| 1   | Arrays | 19 / 20         |
+| 1   | Arrays | 20 / 20         |
+| 2   | Strings | 0 / 15         |
 
-**Total Solved:** 19 / 190
+**Total Solved:** 20 / 190
 
 ## Problems Solved
 
@@ -29,3 +30,4 @@
 - Remove Zeroes
 - Squares of a Sorted Array
 - Third Maximum Number
+- Maximum Subarray
