@@ -5,9 +5,9 @@
 | #   | Topic  | Problems Solved |
 | --- | ------ | --------------- |
 | 1   | Arrays | 20 / 20         |
-| 2   | Strings | 0 / 15         |
+| 2   | Strings | 1 / 15         |
 
-**Total Solved:** 20 / 190
+**Total Solved:** 21 / 190
 
 ## Problems Solved
 
@@ -31,3 +31,4 @@
 - Squares of a Sorted Array
 - Third Maximum Number
 - Maximum Subarray
+- Valid Anagram
