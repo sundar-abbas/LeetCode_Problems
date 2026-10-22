@@ -5,9 +5,9 @@
 | #   | Topic  | Problems Solved |
 | --- | ------ | --------------- |
 | 1   | Arrays | 20 / 20         |
-| 2   | Strings | 1 / 15         |
+| 2   | Strings | 2 / 15         |
 
-**Total Solved:** 21 / 190
+**Total Solved:** 22 / 190
 
 ## Problems Solved
 
@@ -32,3 +32,4 @@
 - Third Maximum Number
 - Maximum Subarray
 - Valid Anagram
+- Valid Palindrome
