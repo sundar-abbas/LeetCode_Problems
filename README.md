@@ -5,9 +5,9 @@
 | #   | Topic  | Problems Solved |
 | --- | ------ | --------------- |
 | 1   | Arrays | 20 / 20         |
-| 2   | Strings | 2 / 15         |
+| 2   | Strings | 3 / 15         |
 
-**Total Solved:** 22 / 190
+**Total Solved:** 23 / 190
 
 ## Problems Solved
 
@@ -33,3 +33,4 @@
 - Maximum Subarray
 - Valid Anagram
 - Valid Palindrome
+- Reverse String
