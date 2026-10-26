@@ -4,6 +4,7 @@
 - Anagram
 - Palindrome
 - Two-Pointer Technique
+- String Splitting & Joining (words reverse)
 
 ## Problems Solved
 
@@ -33,3 +34,12 @@
 - **Optimization:** Already optimal for in-place modifications ($O(1)$ auxiliary space). Python also offers the native `s.reverse()` method or slicing `s[::-1]` (though slicing creates a new copy in memory).
 - **LeetCode Link:** https://leetcode.com/problems/reverse-string/
 - **Date Solved:** 2026-10-24
+
+### 004. Revserse Words in String III
+
+- **Difficulty:** Easy
+- **Approach:** Split and Slice (O(n) time, O(n) space).
+- **My Solution:** Used `s.split()` to break the string into individual words, reversed each individual word using slicing `[::-1]`, and re-joined them with spaces.
+- **Optimization:** Already highly optimal and Pythonic. A full manual inversion using pointers would yield the same asymptotic $O(n)$ complexity but requires more code.
+- **LeetCode Link:** https://leetcode.com/problems/reverse-words-in-a-string-iii/
+- **Date Solved:** 2026-10-26
