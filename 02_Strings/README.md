@@ -43,3 +43,13 @@
 - **Optimization:** Already highly optimal and Pythonic. A full manual inversion using pointers would yield the same asymptotic $O(n)$ complexity but requires more code.
 - **LeetCode Link:** https://leetcode.com/problems/reverse-words-in-a-string-iii/
 - **Date Solved:** 2026-10-26
+
+### 005. Length Of Last Word
+
+- **Difficulty:** Easy
+- **Approach:** String Splitting and Indexing ($O(n)$ time, $O(n)$ space).
+- **My Solution:** Split the string into a list of words using `.split()` and iterated backwards through the range to find and return the length of the last word.
+- **Optimization:** Python's `.split()` returns a list, meaning we can directly access the last element using negative indexing (`s[-1]`) in $O(1)$ time without manually looping backwards. Alternatively, to save space, we can trim trailing spaces and count characters from right to left using a single pointer without splitting the string ($O(1)$ space).
+- **LeetCode Link:** https://leetcode.com/problems/length-of-last-word/
+- **Date Solved:** 2026-10-29
+

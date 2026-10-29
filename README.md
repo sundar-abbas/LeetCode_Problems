@@ -5,9 +5,9 @@
 | #   | Topic  | Problems Solved |
 | --- | ------ | --------------- |
 | 1   | Arrays | 20 / 20         |
-| 2   | Strings | 4 / 15         |
+| 2   | Strings | 5 / 15         |
 
-**Total Solved:** 24 / 190
+**Total Solved:** 25 / 190
 
 ## Problems Solved
 
@@ -35,3 +35,4 @@
 - Valid Palindrome
 - Reverse String
 - Reverse Words in String |||
+- Length Of Last Word
